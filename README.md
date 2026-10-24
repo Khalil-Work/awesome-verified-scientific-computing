@@ -1,11 +1,21 @@
 <div align="center">
 
-# awesome-verified-scientific-computing
+<img src="docs/banner.png" alt="Verified Scientific Computing banner: a stack of verified result cards with measured metrics" width="100%">
 
-### Small, honestly verified scientific codes — where every accuracy claim is measured
+# Verified Scientific Computing
+
+### A curated catalogue of honestly verified codes — every accuracy claim is measured
 
 **Solvers whose numbers you can actually check: benchmarks against exact solutions,
 independent formulations, or hand computation — with tests, raw data and stated limits.**
+
+[![entries](https://img.shields.io/badge/catalogue-22%20entries-e8b04b.svg)](#cfd--lattice-boltzmann-finite-volume-spectral)
+[![criteria](https://img.shields.io/badge/inclusion-verified%20%2B%20tested%20%2B%20honest-brightgreen.svg)](#why-this-list)
+[![license](https://img.shields.io/badge/license-CC0--1.0-blue.svg)](#license)
+[![repo stars](https://img.shields.io/github/stars/khalil-work/verified-scientific-computing?style=flat&color=yellow)](https://github.com/khalil-work/verified-scientific-computing/stargazers)
+[![last commit](https://img.shields.io/github/last-commit/khalil-work/verified-scientific-computing?color=9cf)](https://github.com/khalil-work/verified-scientific-computing/commits)
+
+[Why this list](#why-this-list) · [Verification wall](#-verification-wall) · [Catalogue](#cfd--lattice-boltzmann-finite-volume-spectral) · [Contributing](#contributing) · [License](#license)
 
 </div>
 
@@ -23,9 +33,20 @@ they do *not* claim. Criteria for inclusion:
 - ✅ honest limitations section
 - ✅ reproducible results (scripts + raw data)
 
+## 🧱 Verification wall
+
+Every metric below is taken verbatim from the linked repository's own recorded
+results — no reinterpretation, no rounding in anyone's favour:
+
+<img src="docs/verification_wall.gif" alt="Animated verification wall: each catalogue project with its measured verification metric" width="100%">
+
+<sub>The wall summarizes one measured claim per project; the full evidence
+(detailed benchmarks, tests, raw data) lives in each linked repository.</sub>
+
 ## Contents
 
 - [Why this list](#why-this-list)
+- [Verification wall](#-verification-wall)
 - [CFD — lattice-Boltzmann, finite volume, spectral](#cfd--lattice-boltzmann-finite-volume-spectral)
 - [Physics-informed & reduced-order machine learning](#physics-informed--reduced-order-machine-learning)
 - [Classical numerical analysis](#classical-numerical-analysis)
