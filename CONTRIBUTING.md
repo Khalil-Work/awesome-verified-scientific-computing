@@ -25,3 +25,14 @@ welcome — especially self-nominations.
    verified codes get their own row.
 
 Suggestions and corrections as issues are welcome too.
+
+## Check a catalogue edit locally
+
+Run `python scripts/check_catalog.py` before submitting an entry. The offline
+checker catches malformed repository links, duplicates across sections, missing
+verification descriptions and broken table columns. Escape a literal pipe in
+a description as `\|`. It does not check website availability or prove numerical
+claims; inclusion criteria still require human review of the linked evidence.
+
+Run its regression suite with `python -m unittest discover -s tests -v`.
+Both commands use only the Python standard library.
