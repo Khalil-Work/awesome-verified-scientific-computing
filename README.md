@@ -23,6 +23,17 @@ they do *not* claim. Criteria for inclusion:
 - ✅ honest limitations section
 - ✅ reproducible results (scripts + raw data)
 
+## Contents
+
+- [Why this list](#why-this-list)
+- [CFD — lattice-Boltzmann, finite volume, spectral](#cfd--lattice-boltzmann-finite-volume-spectral)
+- [Physics-informed & reduced-order machine learning](#physics-informed--reduced-order-machine-learning)
+- [Classical numerical analysis](#classical-numerical-analysis)
+- [Thermal & transport](#thermal--transport)
+- [Geometry, data & tooling](#geometry-data--tooling)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## CFD — lattice-Boltzmann, finite volume, spectral
 
 | Project | What it verifies |
@@ -74,6 +85,7 @@ they do *not* claim. Criteria for inclusion:
 
 Know a small verified code (exact-reference benchmarks, tests, honest limits)?
 Open an issue or PR. Self-promotion is fine if the verification criteria are met.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines on inclusion criteria, required format, and review steps.
 
 ## License
 
